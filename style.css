@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 400vh;
+   position: relative;
+   overflow: hidden;
+   scroll-behavior: smooth;
+}
+h1{
+    position: relative;
+}
+p{
+    font-size: xx-large;
+}
+
+/* First scroll text */
+p:nth-child(1){
+   position: absolute;
+   top: 10%;
+   left: -800px;
+   animation:0.4s linear;
+    animation-fill-mode:forwards;
+}
+
+
+/* Second scroll text */
+p:nth-child(2){
+    position: absolute;
+    top: 30%;
+    right: -700px;
+    animation:0.4s linear;
+    animation-fill-mode:forwards;
+}
+/* Third scroll text */
+p:nth-child(3){
+    position: absolute;
+    top: 50%;
+    left: -800px;
+    animation:0.4s linear;
+    animation-fill-mode:forwards;
+}
+/* Fourth scroll text */
+p:nth-child(4){
+    position: absolute;
+    top: 80%;
+    right: -800px;
+    animation:0.4s linear;
+    animation-fill-mode:forwards;
+    
+}
+
+
+/*Animation for each text*/
+
+@keyframes left{
+    0%{left: -800px;}
+    33%{left:10%;}
+    66%{left:20%;}
+    100%{left: 30%}
+
+}
+
+@keyframes right{
+    0%{right: -800px;}
+    33%{right:10%;}
+    66%{right:20%;}
+    100%{right: 30%}
+
+}
