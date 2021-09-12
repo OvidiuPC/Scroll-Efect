@@ -1,19 +1,19 @@
 const container = document.getElementById("container")
 
 function scrol(){
-    console.log(Math.round(scrollY))
+    console.log(scrollY)
     const firstP = document.getElementById("first-text");
     const secondP = document.getElementById("second-text");
     const thirdP = document.getElementById("third-text");
     const fourthP = document.getElementById("fourth-text")
 
-    if(scrollY >= 0 && scrollY <=500){
+    if(scrollY >= 10 && scrollY <=20){
         firstP.style.animationName = "left";
-    } else if(scrollY >=600 && scrollY <=1300){
+    } else if(scrollY >=140 && scrollY <=150){
         secondP.style.animationName ="right"
-    }else if(scrollY >= 1500 && scrollY <= 2300){
+    }else if(scrollY >= 500 && scrollY <= 550){
             thirdP.style.animationName = "left";
-    }else if (scrollY >=2000 && scrollY <= 3100){
+    }else if (scrollY >=700 && scrollY <= 710){
         fourthP.style.animationName = "left";
     }
 }

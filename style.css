@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container{
-    height: 400vh;
+    height: 200vh;
    position: relative;
    overflow: hidden;
    scroll-behavior: smooth;
@@ -22,6 +22,7 @@ p:nth-child(1){
    left: -800px;
    animation:0.4s linear;
     animation-fill-mode:forwards;
+    color: aqua;
 }
 
 
@@ -32,6 +33,7 @@ p:nth-child(2){
     right: -700px;
     animation:0.4s linear;
     animation-fill-mode:forwards;
+    color: yellow;
 }
 /* Third scroll text */
 p:nth-child(3){
@@ -40,6 +42,7 @@ p:nth-child(3){
     left: -800px;
     animation:0.4s linear;
     animation-fill-mode:forwards;
+    color: turquoise;
 }
 /* Fourth scroll text */
 p:nth-child(4){
@@ -48,6 +51,7 @@ p:nth-child(4){
     right: -800px;
     animation:0.4s linear;
     animation-fill-mode:forwards;
+    color: violet;
     
 }
 
